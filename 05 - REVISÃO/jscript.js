@@ -118,12 +118,23 @@ Se o número tiver exatamente duas divisões exatas (1 e ele mesmo),
 o programa deve imprimir a mensagem "O número X é primo", onde X é o número em questão. Caso contrário, 
 o programa deve imprimir a mensagem "O número X não é primo".*/
 
-let num = parseFloat(prompt("digite um número"))
-for(i = 1; i < num; i++){
-    if(num / i == num){
-        console.log(`o número ${num} é primo`)
-    }else{
-        console.log(`o numero ${num} não é primo`)
-    }
+// let num = parseFloat(prompt("digite um número"))
+// let divisão = 0
+// for(i = 1; i < num; i++){
+//     if(num % i == 0){
+//     divisão++
+//     }
 
-    }
+//     if(divisão = 2){
+//         console.log(`o número ${num} é primo`)
+//     }else{
+//         console.log(`o numero ${num} não é primo`)
+//     }
+// }
+// Configuração
+function findGreaterOrEqual(a, b) {
+    return (a === b) ? "a and b are equal" 
+    : (a > b) ? "a is greater" 
+    : "b is greater";
+}
+console.log(findGreaterOrEqual(1,4))
