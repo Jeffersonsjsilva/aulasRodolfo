@@ -38,12 +38,12 @@
 
 // desafio 04 = fazer uma função que multiplica 3 números
 
-// function multiplicar (a, b,c){
-//     let num = a*b*c
-//     console.log(num)
-// }
+function multiplicar (a, b,c){
+    let num = a*b*c
+    console.log(num)
+}
 
-// multiplicar(10,7,9)
+multiplicar(3,7,9)
 
 
-//
+// aula 11/08
